@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<Rocky102MemoryMap>
+	<register bank="EPC"      address="0x06" content="0x000B" /> <!-- EPC_4 -->
+	<register bank="User"     address="0x00" content="0x1F00" /> <!-- OPMODE_CTL_NV -->
+	<register bank="User"     address="0x02" content="0x0015" /> <!-- PSM_CTL -->
+	<register bank="User"     address="0x03" content="0x0174" /> <!-- TRIM_VLON -->
+	<register bank="User"     address="0x04" content="0x029F" /> <!-- TRIM_VLOFF -->
+	<register bank="User"     address="0x05" content="0x021E" /> <!-- TRIM_VREGL -->
+	<register bank="User"     address="0x06" content="0x0008" /> <!-- GPIO0_CTL -->
+	<register bank="User"     address="0x07" content="0x0018" /> <!-- GPIO1_CTL -->
+	<register bank="User"     address="0x08" content="0x0018" /> <!-- GPIO2_CTL -->
+	<register bank="User"     address="0x09" content="0x0018" /> <!-- GPIO3_CTL -->
+	<register bank="User"     address="0x0A" content="0x3028" /> <!-- GPIO4_CTL -->
+	<register bank="User"     address="0x0B" content="0xE200" /> <!-- SPI_MASTER_CTL -->
+	<register bank="User"     address="0x0C" content="0x0200" /> <!-- QOS_CTL -->
+	<register bank="User"     address="0x0D" content="0x0080" /> <!-- PER_BASE_ADDR -->
+	<register bank="User"     address="0x0E" content="0x0100" /> <!-- SPI_BASE_ADDR -->
+	<register bank="User"     address="0x0F" content="0x0002" /> <!-- CONF_BLOCK_0 -->
+	<register bank="User"     address="0x10" content="0xFC0F" /> <!-- CONF_PER_READ_0 -->
+	<register bank="User"     address="0x1A" content="0x007F" /> <!-- WDT_CTL -->
+	<register bank="User"     address="0x1B" content="0x0000" /> <!-- EDGE_CTL -->
+	<register bank="User"     address="0x1C" content="0x0000" /> <!-- SPI_OFFSET_H -->
+	<register bank="User"     address="0x1D" content="0x0000" /> <!-- SPI_OFFSET_L -->
+	<register bank="User"     address="0x1E" content="0x0000" /> <!-- LTC_CTL -->
+	<register bank="User"     address="0x1F" content="0x03FE" /> <!-- CONF_BLOCK_1 -->
+	<register bank="User"     address="0x20" content="0x0021" /> <!-- CONF_PER_READ_1 -->
+	<register bank="User"     address="0x21" content="0x8000" /> <!-- LOG_CTL -->
+	<register bank="User"     address="0x22" content="0x0000" /> <!-- LOG_NVCOUNT -->
+	<register bank="User"     address="0x23" content="0x0000" /> <!-- LOG_NVTSTAMP -->
+	<register bank="User"     address="0x24" content="0x0000" /> <!-- LOG_NVDATA -->
+	<register bank="User"     address="0x25" content="0x8E46" /> <!-- PWM_CTL -->
+	<register bank="User"     address="0x2F" content="0x7FC0" /> <!-- CONF_BLOCK_2 -->
+
+	<mcu file="medusa-rm-v02.txt"/>
+</Rocky102MemoryMap>
